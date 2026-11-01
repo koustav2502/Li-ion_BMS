@@ -4080,7 +4080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 101.2952 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4159,7 +4159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT60-M:AMASS_XT60-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 257.81 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4372,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 156.21 115.8748 0)
 			(hide yes)
 			(show_name no)
@@ -4556,7 +4556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 159.766 121.666 90)
 			(hide yes)
 			(show_name no)
@@ -4637,7 +4637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 186.69 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4755,7 +4755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 130.5052 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4835,7 +4835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 115.316 89.916 90)
 			(hide yes)
 			(show_name no)
@@ -4915,7 +4915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 124.206 87.376 90)
 			(hide yes)
 			(show_name no)
@@ -4995,7 +4995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VQFN20_RGR_TEX"
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_LongPads"
 			(at 161.29 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5134,7 +5134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT60-M:AMASS_XT60-M"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W8.61mm_P2.54mm"
 			(at 138.43 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5226,7 +5226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 219.456 57.404 90)
 			(hide yes)
 			(show_name no)
@@ -5305,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 219.456 54.356 90)
 			(hide yes)
 			(show_name no)
@@ -5385,7 +5385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT60-M:AMASS_XT60-M"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W8.61mm_P2.54mm"
 			(at 153.67 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5479,7 +5479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 121.6152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5561,7 +5561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 139.3952 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5643,7 +5643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 111.4552 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5801,7 +5801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 94.996 94.996 90)
 			(hide yes)
 			(show_name no)
@@ -6065,7 +6065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 128.27 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6146,7 +6146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT60-M:AMASS_XT60-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 58.42 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6362,7 +6362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 147.066 121.666 90)
 			(hide yes)
 			(show_name no)
@@ -6520,7 +6520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VQFN20_RGR_TEX"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6687,7 +6687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 152.146 127.254 90)
 			(hide yes)
 			(show_name no)
@@ -6767,7 +6767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 105.156 92.456 90)
 			(hide yes)
 			(show_name no)
@@ -6847,7 +6847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 133.096 84.836 90)
 			(hide yes)
 			(show_name no)
@@ -6929,7 +6929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 260.35 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7018,7 +7018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 180.34 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7135,7 +7135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 224.4852 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7217,7 +7217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 210.5152 110.49 0)
 			(hide yes)
 			(show_name no)

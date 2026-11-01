@@ -5967,7 +5967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm"
 			(at 255.27 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6053,7 +6053,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 260.35 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6210,7 +6210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 225.7552 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6290,7 +6290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 148.8948 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6371,7 +6371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 65.786 89.154 90)
 			(hide yes)
 			(show_name no)
@@ -6608,7 +6608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 261.366 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -6767,7 +6767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 54.102 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -6849,7 +6849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 157.1752 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7009,7 +7009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 227.076 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -7090,7 +7090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 56.896 114.554 90)
 			(hide yes)
 			(show_name no)
@@ -7250,7 +7250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 235.966 90.424 90)
 			(hide yes)
 			(show_name no)
@@ -7330,7 +7330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W8.61mm_P2.54mm"
 			(at 255.27 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7501,7 +7501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 201.676 63.754 90)
 			(hide yes)
 			(show_name no)
@@ -7583,7 +7583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 20.32 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7670,7 +7670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 244.856 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -7750,7 +7750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 210.82 69.5452 0)
 			(hide yes)
 			(show_name no)
@@ -7829,7 +7829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 140.716 79.756 90)
 			(hide yes)
 			(show_name no)
@@ -7989,7 +7989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 74.676 89.154 90)
 			(hide yes)
 			(show_name no)
@@ -8070,7 +8070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 70.866 52.324 90)
 			(hide yes)
 			(show_name no)
@@ -8150,7 +8150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 154.94 79.7052 0)
 			(hide yes)
 			(show_name no)
@@ -8311,7 +8311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 184.15 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8473,7 +8473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 244.856 92.964 90)
 			(hide yes)
 			(show_name no)
@@ -8553,7 +8553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 33.3248 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8633,7 +8633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 149.86 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8710,7 +8710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Inductor_THT:L_Radial_D12.0mm_P10.00mm_Neosid_SD12k_style1"
 			(at 191.77 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8791,7 +8791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 235.966 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -8872,7 +8872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 218.186 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -8952,7 +8952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 149.86 87.3252 0)
 			(hide yes)
 			(show_name no)
@@ -9032,7 +9032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 33.3248 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9111,7 +9111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 171.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9195,7 +9195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 252.476 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -9276,7 +9276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 48.006 89.154 90)
 			(hide yes)
 			(show_name no)
@@ -9357,7 +9357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VQFN20_RGR_TEX"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 273.05 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9445,7 +9445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 206.756 58.166 90)
 			(hide yes)
 			(show_name no)
@@ -9525,7 +9525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 67.31 58.1152 0)
 			(hide yes)
 			(show_name no)
@@ -9682,7 +9682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 70.866 83.566 90)
 			(hide yes)
 			(show_name no)
@@ -9844,7 +9844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 214.376 63.754 90)
 			(hide yes)
 			(show_name no)
@@ -9923,7 +9923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 63.246 46.736 90)
 			(hide yes)
 			(show_name no)
@@ -10394,7 +10394,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 49.53 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10477,7 +10477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ24703PW:SOP65P640X120-24N"
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 110.49 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10709,7 +10709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 140.0048 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10789,7 +10789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10866,7 +10866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ24703PW:SOP65P640X120-24N"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 33.02 49.276 0)
 			(hide yes)
 			(show_name no)
@@ -11182,7 +11182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm"
 			(at 219.71 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11269,7 +11269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 48.006 114.554 90)
 			(hide yes)
 			(show_name no)
@@ -11350,7 +11350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 58.166 52.324 90)
 			(hide yes)
 			(show_name no)
@@ -11430,7 +11430,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 254 57.15 0)
 			(hide yes)
 			(show_name no)
