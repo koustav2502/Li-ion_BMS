@@ -652,6 +652,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -2664,6 +2804,12 @@
 		(uuid "58bc3e21-4518-44eb-8699-af4d21aa8c5a")
 	)
 	(junction
+		(at 139.7 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e6bbb9e-65ed-4e80-9179-31a0d9bf26e1")
+	)
+	(junction
 		(at 204.47 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2716,6 +2862,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f3e94d9-863c-45ab-bddc-56217dc7f6df")
+	)
+	(junction
+		(at 104.14 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a25ff691-1a01-4210-b91f-f2fea7bdddff")
 	)
 	(junction
 		(at 237.49 53.34)
@@ -3113,16 +3265,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 109.22) (xy 177.8 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "507e5fef-f30e-459b-bea0-4bfe9f990e7a")
-	)
-	(wire
-		(pts
 			(xy 207.01 100.33) (xy 255.27 100.33)
 		)
 		(stroke
@@ -3130,6 +3272,16 @@
 			(type default)
 		)
 		(uuid "5104da43-b241-4b41-85a7-83c59291650b")
+	)
+	(wire
+		(pts
+			(xy 177.8 119.38) (xy 177.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51228a34-c786-4ebc-a262-aa53bc4b7fa0")
 	)
 	(wire
 		(pts
@@ -3143,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 106.68) (xy 110.49 106.68)
+			(xy 100.33 106.68) (xy 104.14 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3190,6 +3342,26 @@
 			(type default)
 		)
 		(uuid "59310f8a-e476-4302-9952-f33aed11ecf4")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 110.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2add88-424b-4dd3-9592-8d03fc833e1a")
+	)
+	(wire
+		(pts
+			(xy 177.8 109.22) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b14f88e-73d6-4f35-8ab2-4a6c6d62dae6")
 	)
 	(wire
 		(pts
@@ -3263,16 +3435,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 109.22) (xy 177.8 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "718890f2-d002-4a60-a68e-bf8f7a44c21a")
-	)
-	(wire
-		(pts
 			(xy 110.49 104.14) (xy 110.49 106.68)
 		)
 		(stroke
@@ -3343,6 +3505,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 128.27) (xy 146.05 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875a5114-69a4-4dfa-8718-25abd3a5405e")
+	)
+	(wire
+		(pts
 			(xy 209.55 85.09) (xy 209.55 102.87)
 		)
 		(stroke
@@ -3400,6 +3572,16 @@
 			(type default)
 		)
 		(uuid "8c040724-7acd-4cc7-be25-8733c2fc9363")
+	)
+	(wire
+		(pts
+			(xy 160.02 109.22) (xy 177.8 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d31a97e-97cf-4e57-84cf-7e035c982462")
 	)
 	(wire
 		(pts
@@ -3633,6 +3815,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 119.38) (xy 189.23 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70f6691-946e-4a7c-b2a1-fd6e593df699")
+	)
+	(wire
+		(pts
 			(xy 142.24 110.49) (xy 142.24 105.41)
 		)
 		(stroke
@@ -3773,7 +3965,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 128.27) (xy 146.05 128.27)
+			(xy 63.5 128.27) (xy 139.7 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3843,16 +4035,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 107.95) (xy 189.23 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc3de404-47ba-4caa-b6a4-f324c679b830")
-	)
-	(wire
-		(pts
 			(xy 129.54 41.91) (xy 146.05 41.91)
 		)
 		(stroke
@@ -3870,6 +4052,16 @@
 			(type default)
 		)
 		(uuid "e3eaf6df-baec-40a5-a8cd-aec0f183e7a2")
+	)
+	(wire
+		(pts
+			(xy 189.23 107.95) (xy 189.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89b9bc2-e586-4254-8afc-0ed3b93f98b4")
 	)
 	(wire
 		(pts
@@ -4362,7 +4554,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 152.4 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4995,7 +5187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_LongPads"
+		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm"
 			(at 161.29 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5195,6 +5387,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 189.23 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d4633ad-d3ba-4a21-be7a-8cb2df29a7b1")
+		(property "Reference" "R34"
+			(at 191.77 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 191.77 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 187.452 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0df5bde7-85f1-43c7-86b5-91b36886728f")
+		)
+		(pin "1"
+			(uuid "b963c371-3567-4bb9-9f61-b8ce821d08c6")
+		)
+		(instances
+			(project "Li-ion_BMS"
+				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 219.71 58.42 270)
 		(mirror x)
@@ -5216,7 +5490,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 219.71 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5295,7 +5569,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 219.71 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5522,6 +5796,84 @@
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "815970d7-064b-42c7-b9e4-15f247255564")
+		(property "Reference" "#PWR025"
+			(at 104.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6255487a-4a50-4ee3-a083-ada3a4356a7f")
+		)
+		(instances
+			(project "Li-ion_BMS"
+				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6489,6 +6841,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 139.7 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1983e63-9447-4115-be19-8bf9fb569924")
+		(property "Reference" "#PWR026"
+			(at 139.7 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcc58bbe-0bdb-4083-a4bc-2170953d1643")
+		)
+		(instances
+			(project "Li-ion_BMS"
+				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 74.93 88.9 180)
 		(unit 1)
@@ -6520,7 +6950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6687,7 +7117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P20.32mm_Horizontal"
 			(at 152.146 127.254 90)
 			(hide yes)
 			(show_name no)
@@ -6730,6 +7160,88 @@
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d540d41b-d614-4a12-a09e-14669282438e")
+		(property "Reference" "R33"
+			(at 180.34 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 180.34 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 176.022 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "57bd4264-af17-4d40-a55c-ea3dec4cfa24")
+		)
+		(pin "1"
+			(uuid "2a69c82c-153f-4b22-962f-5caa1d06266a")
+		)
+		(instances
+			(project "Li-ion_BMS"
+				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
+					(reference "R33")
 					(unit 1)
 				)
 			)
