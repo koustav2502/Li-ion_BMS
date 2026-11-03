@@ -1772,29 +1772,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 6.35 0)
+			(property "Reference" "J3"
+				(at 3.81 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "XT60-M"
-				(at 0 -5.08 0)
+				(at 3.81 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "XT60-M:AMASS_XT60-M"
+			(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2093,6 +2091,24 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "POS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -5.08 0 0)
 					(length 5.08)
 					(name "NEG"
@@ -2102,12 +2118,342 @@
 							)
 						)
 					)
-					(number "N"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XT60-M_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J2"
+				(at 3.81 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XT60-M"
+				(at 3.81 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "AMASS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "16.00 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "V1.2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60-M/AMASS/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "XT60-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "AMASS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "XT60-M_1_0_0"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 2.2225)
+					(end 2.2225 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -0.3175)
+					(end 2.2225 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -2120,7 +2466,25 @@
 							)
 						)
 					)
-					(number "P"
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "NEG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4305,6 +4669,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e4e07938-385f-44e3-82b5-92618f6f0d38")
 		)
@@ -4331,7 +4706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17a50fd4-db9f-4a97-b10f-a1eca213bab9")
-		(property "Reference" "J3"
+		(property "Reference" "J7"
 			(at 261.62 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4518,16 +4893,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "N"
+		(pin "1"
 			(uuid "e4322158-30c4-407b-9fb2-0507bf30ca68")
 		)
-		(pin "P"
+		(pin "2"
 			(uuid "22756515-e1be-425b-b54b-b1720a1b5417")
 		)
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "J3")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4544,7 +4919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20751db3-c5ed-4488-a932-2bb7346b9735")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 152.4 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4597,6 +4972,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 152.4 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "632cb642-3770-40a4-989a-e238ee4891d8")
 		)
@@ -4606,7 +4992,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4624,7 +5010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27ff7f2d-b23d-43ae-85ef-6f4dff9d7995")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 228.6 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4699,6 +5085,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 228.6 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d5b02da3-46a6-4038-ba06-c56b1a2f8657")
 		)
@@ -4708,7 +5105,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4726,7 +5123,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29c5d58b-c38a-413e-b06c-851273e5ef67")
-		(property "Reference" "R29"
+		(property "Reference" "R33"
 			(at 161.036 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4781,6 +5178,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 158.75 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "41b37140-9b70-4c5d-a242-54c5617f2d22")
 		)
@@ -4790,7 +5198,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "R29")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -4895,6 +5303,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/TO_SOT/THT"
+			(at 189.23 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a90e270b-c004-44d3-8643-f9e23a8f9f80")
 		)
@@ -4980,6 +5399,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 129.54 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fd60f97e-d87f-41b5-8796-d0a1e4b81ecc")
 		)
@@ -5007,7 +5437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bdd4d5b-6213-4734-85b8-ca75f0b6e5a1")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 115.57 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5060,6 +5490,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 115.57 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "121e83ae-82bd-4e59-b28a-2374377cafa3")
 		)
@@ -5069,7 +5510,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -5130,6 +5571,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 124.46 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 124.46 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5212,6 +5664,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.29 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/no_lead"
 			(at 161.29 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5359,6 +5822,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "button_switch/DIP"
+			(at 138.43 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ed6d0ee-3fbb-40fa-8446-b7533e37abbb")
 		)
@@ -5398,7 +5872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d4633ad-d3ba-4a21-be7a-8cb2df29a7b1")
-		(property "Reference" "R34"
+		(property "Reference" "R31"
 			(at 191.77 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5453,6 +5927,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 189.23 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0df5bde7-85f1-43c7-86b5-91b36886728f")
 		)
@@ -5462,7 +5947,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "R34")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -5480,7 +5965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70e08454-74ea-43c2-bed4-960134dcd8c9")
-		(property "Reference" "R31"
+		(property "Reference" "R24"
 			(at 219.71 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5533,6 +6018,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 219.71 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7619455f-ea21-4122-ab25-19313392d77b")
 		)
@@ -5542,7 +6038,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "R31")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5559,7 +6055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "719e7072-59e1-46ab-add8-fea2525895e5")
-		(property "Reference" "R30"
+		(property "Reference" "R23"
 			(at 219.71 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5612,6 +6108,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 219.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cf761667-3bf3-4534-8d21-d1b7d7608df8")
 		)
@@ -5621,7 +6128,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "R30")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5682,6 +6189,17 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 153.67 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "button_switch/DIP"
 			(at 153.67 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5786,6 +6304,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 120.65 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1e917d39-6f5a-44b6-acf3-025c8d7f19d8")
 		)
@@ -5813,7 +6342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "815970d7-064b-42c7-b9e4-15f247255564")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5873,7 +6402,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "#PWR025")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5936,6 +6465,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6028,6 +6568,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 110.49 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d2643118-5948-41dc-8b94-131ac7a1e000")
 		)
@@ -6055,7 +6606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c33df70-fcc9-4d55-b8a3-cddca64c117d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR021"
 			(at 203.2 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6115,7 +6666,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "#PWR08")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6133,7 +6684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fe821b4-a556-4e50-9d18-a24b2f1d6f65")
-		(property "Reference" "R4"
+		(property "Reference" "R29"
 			(at 95.25 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,6 +6737,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 95.25 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "061cc222-c887-4b0d-8801-158f5fd44ad5")
 		)
@@ -6195,7 +6757,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "R4")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -6213,7 +6775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91645bad-a88a-485d-9e4e-8b4f910a6415")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 228.6 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6288,6 +6850,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 228.6 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0dbef521-32a1-4f92-8644-14fc7f4c6480")
 		)
@@ -6297,7 +6870,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6315,7 +6888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92a7764c-1228-424f-a0fc-d17b4d2ce0b3")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 223.52 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6375,7 +6948,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6394,7 +6967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "931b9ec2-ccad-43be-b940-6fc0cbc0fa25")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 132.08 120.0149 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6450,6 +7023,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/JST"
+			(at 128.27 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1c350d77-87af-4cc6-896e-8c6c362c7b43")
 		)
@@ -6459,13 +7043,14 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "XT60-M_1")
 		(lib_id "XT60-M:XT60-M")
 		(at 58.42 93.98 0)
 		(mirror y)
@@ -6478,7 +7063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6631730-88db-44d2-a440-ae6fc875b91c")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 54.61 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6665,16 +7250,16 @@
 				(justify bottom)
 			)
 		)
-		(pin "N"
+		(pin "2"
 			(uuid "e0552d3f-4f39-4cf4-8bca-466488933643")
 		)
-		(pin "P"
+		(pin "1"
 			(uuid "1c520271-f70d-463b-a7db-7001dda56bcd")
 		)
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6692,7 +7277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6fddbd1-dafd-43fb-9a22-55c6bc8cd067")
-		(property "Reference" "R18"
+		(property "Reference" "R32"
 			(at 140.97 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6747,6 +7332,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 146.05 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76b57486-b8c9-4ab1-965c-11e22ae01983")
 		)
@@ -6756,7 +7352,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "R18")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6774,7 +7370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b74ceadf-3d1f-4989-9d16-30c9efc1d906")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 209.55 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6834,7 +7430,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6852,7 +7448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1983e63-9447-4115-be19-8bf9fb569924")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 139.7 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6912,7 +7508,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6930,7 +7526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c465996b-369f-4dea-87bb-b8c88785e970")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 75.565 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6983,6 +7579,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/JST"
+			(at 74.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "22622b2e-9cff-418f-84e5-955a9fe28bd4")
 		)
@@ -7001,7 +7608,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7019,7 +7626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb1e9d52-dcbf-4786-9e0b-9f8112f35957")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR024"
 			(at 137.16 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7079,7 +7686,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "#PWR09")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7097,7 +7704,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ceb9a419-62de-4586-82e1-51579fb2a0e3")
-		(property "Reference" "R28"
+		(property "Reference" "R34"
 			(at 152.4 132.842 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7150,6 +7757,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 152.4 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "40023823-ba92-4273-874d-07ccf9a019f7")
 		)
@@ -7159,7 +7777,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "R28")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7177,7 +7795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d540d41b-d614-4a12-a09e-14669282438e")
-		(property "Reference" "R33"
+		(property "Reference" "R30"
 			(at 180.34 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7232,6 +7850,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 177.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "57bd4264-af17-4d40-a55c-ea3dec4cfa24")
 		)
@@ -7241,7 +7870,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "R33")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -7259,7 +7888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b8f4bd-fe0c-48f3-ba3b-3f1790579338")
-		(property "Reference" "R15"
+		(property "Reference" "R28"
 			(at 105.41 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7312,6 +7941,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 105.41 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a11f6629-5a17-4f8b-a673-8f8bc7badc32")
 		)
@@ -7321,7 +7961,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "R15")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7339,7 +7979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc18b0c3-8465-48a1-b185-b48bf4edb15b")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 133.35 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7392,6 +8032,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 133.35 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "23d1cb17-6cb1-4309-9f96-8cffdb9bc8c8")
 		)
@@ -7401,7 +8052,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "R27")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7419,7 +8070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e47a9e18-2763-4fab-8141-e82a2bc9b5b1")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 261.62 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7474,6 +8125,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 260.35 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1dcf9a9b-ec69-478d-8ad2-3106f001b7bb")
 		)
@@ -7492,7 +8154,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7510,7 +8172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef02f300-72ca-4873-836d-b89f1013a7b5")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 177.8 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7596,6 +8258,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/TO_SOT/THT"
+			(at 177.8 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "16d5e05d-c8de-4f7a-bb3e-6d093223963a")
 		)
@@ -7608,7 +8281,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7625,7 +8298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f260a699-2089-461a-af5e-11803618ad1b")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 227.33 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7680,6 +8353,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 223.52 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed1fdbd1-b1d4-47a9-b7f6-49875aef5c16")
 		)
@@ -7689,7 +8373,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7707,7 +8391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa1c1682-d5ed-4665-b688-2d5b52100e67")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 213.36 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7762,6 +8446,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 209.55 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "730ac0d0-0bac-4e4b-aa0b-1affeac17483")
 		)
@@ -7771,7 +8466,7 @@
 		(instances
 			(project "Li-ion_BMS"
 				(path "/22e1893a-afb3-44d0-b5db-343db0e2db47/adc8b56d-10ec-49ef-979b-f619395930d0"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
