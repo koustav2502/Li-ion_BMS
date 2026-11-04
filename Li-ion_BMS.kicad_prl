@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -94,12 +94,12 @@
     "col_widths": [
       149,
       137,
-      119,
-      96,
-      103,
-      122,
-      106,
-      101,
+      149,
+      120,
+      129,
+      152,
+      132,
+      126,
       90,
       90
     ],
